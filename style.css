@@ -1,7 +1,7 @@
 body{
     font-family: 'Poppins', sans-serif;
-    margin top: 50px;
-    /* padding-top: 25px; */
+    margin: 0px;
+    
 
 }
 h1{
@@ -12,6 +12,7 @@ h1{
 }
 section{
     display: flex;
+    margin-top: 20px ;
 }
 .half-width{
     width: 50%;
@@ -28,6 +29,21 @@ section{
     
 }
 .top-banner{
-    background-image: url(images/top-banner.png)
-    background-repeat: no;
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+ 
+}
+.second-len img{
+    width: 50%;
+    margin-left: 100px;
+
+}
+.second-len{
+    width: 50%;
+
+}
+.dream-big{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
